@@ -1,0 +1,6 @@
+[submodule "qemu"]
+	path = qemu
+	url = https://gitlab.com/qemu-project/qemu.git
+[submodule "linux"]
+	path = linux
+	url = https://github.com/torvalds/linux.git
