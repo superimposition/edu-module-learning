@@ -16,9 +16,9 @@ All the code in here should be by yours truly, unless otherwise noted :)
 - [x] Compile QEMU
 - [x] Get working busybox image - Thanks debian!
 - [x] Boot kernel into busybox 
+- [x] Compile module out-of-tree
+- [x] Insert module at run-time with insmod
 - [ ] Compile module in-tree
-- [ ] Compile module out-of-tree
-- [ ] Insert module at run-time with insmod
 - [ ] Mess around in GDB (likely currently doing this)
 - [ ] Verify functional driver for EDU device
 

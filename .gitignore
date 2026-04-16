@@ -1,3 +1,4 @@
 busybox*/*
 debian
 runtime
+initramfs
