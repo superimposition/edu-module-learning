@@ -1,0 +1,14 @@
+#!/bin/busybox sh
+
+#Borrowed from Gentoo
+
+#Install busybox
+/bin/busybox --install -s
+
+#Mount /proc and /sys so I can debugfs it up
+mount -t proc non /proc
+mount -t sysfs none /sys
+mount -t debugfs none /sys/kernel/debug
+
+# Load shell
+exec /bin/sh

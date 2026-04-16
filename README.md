@@ -14,7 +14,8 @@ All the code in here should be by yours truly, unless otherwise noted :)
 
 - [x] Compile kernel
 - [x] Compile QEMU
-- [ ] Get working busybox image
+- [x] Get working busybox image - Thanks debian!
+- [x] Boot kernel into busybox 
 - [ ] Compile module in-tree
 - [ ] Compile module out-of-tree
 - [ ] Insert module at run-time with insmod
