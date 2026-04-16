@@ -18,12 +18,12 @@ All the code in here should be by yours truly, unless otherwise noted :)
 - [x] Boot kernel into busybox 
 - [x] Compile module out-of-tree
 - [x] Insert module at run-time with insmod
-- [ ] Compile module in-tree
+- [ ] Develop functional driver for EDU device
 - [ ] Mess around in GDB (likely currently doing this)
-- [ ] Verify functional driver for EDU device
 
 ## Stretch goals
 
 - [ ] Write driver in Rust
 - [ ] Integrate kernel unit tests into module
 - [ ] Expand device in QEMU to allow for external instrumentation
+- [ ] Compile module in-tree
